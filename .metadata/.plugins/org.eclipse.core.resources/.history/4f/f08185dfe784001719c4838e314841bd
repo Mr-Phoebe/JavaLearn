@@ -1,0 +1,19 @@
+package java_MyPro1;
+import com.rupeng.game.GameCore;
+public class Main1 implements Runnable{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GameCore.start(new Main1());
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		GameCore.setGameTitle("Kune kuen ");
+		GameCore.loadBgView("linzhiling.jpg");
+		GameCore.pause(5000);
+	}
+	
+	
+}

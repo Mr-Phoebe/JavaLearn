@@ -1,0 +1,16 @@
+19:03:08 **** Rebuild of configuration Debug for project HelloCPlusplus ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HelloCPlusplus.o" "..\\src\\HelloCPlusplus.cpp" 
+..\src\HelloCPlusplus.cpp: In function 'int main()':
+..\src\HelloCPlusplus.cpp:13:2: error: 'vector' was not declared in this scope
+  vector<int> input;
+  ^~~~~~
+..\src\HelloCPlusplus.cpp:13:9: error: expected primary-expression before 'int'
+  vector<int> input;
+         ^~~
+..\src\HelloCPlusplus.cpp:16:4: error: 'input' was not declared in this scope
+    input.push_back(i);
+    ^~~~~
+
+19:03:09 Build Finished (took 559ms)
+

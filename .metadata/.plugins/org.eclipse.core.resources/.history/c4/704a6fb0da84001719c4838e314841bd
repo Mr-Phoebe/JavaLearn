@@ -1,0 +1,22 @@
+package cn.Kuen.game;
+import com.rupeng.game.GameCore;;
+public class Game1 implements Runnable{
+	public static void main(String[] args)
+	{
+		GameCore.start(new Game1());
+//		System.out.println("Hello World");
+	}
+	
+	public void run()
+	{
+		GameCore.setGameSize(200, 200);
+		GameCore.pause(2000);
+		GameCore.setGameSize(300, 200);
+		GameCore.setGameTitle("kuen 的游戏引擎");
+		GameCore.pause(2000);
+		GameCore.setGameSize(400, 200);
+		GameCore.setGameTitle("哈哈哈，笑死我了");
+		GameCore.pause(2000);
+		
+	}
+}

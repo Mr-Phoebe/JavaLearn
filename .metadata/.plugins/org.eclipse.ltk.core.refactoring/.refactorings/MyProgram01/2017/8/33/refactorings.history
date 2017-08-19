@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;tmp&apos; in &apos;TestFor.main(...)&apos; to &apos;Sum&apos;&#x0D;&#x0A;- Original project: &apos;MyProgram01&apos;&#x0D;&#x0A;- Original element: &apos;TestFor.main(String[]).tmp&apos;&#x0D;&#x0A;- Renamed element: &apos;tmp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;tmp&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{TestFor.java[TestFor~main~\[QString;@tmp!146!157!150!152!I!0!false" name="Sum" references="true" stamp="1503061305992" version="1.0"/>
+</session>
